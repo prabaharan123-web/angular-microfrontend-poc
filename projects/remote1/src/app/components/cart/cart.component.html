@@ -1,0 +1,24 @@
+    <h2 (click)="auth.restoreSession()">Remote1</h2> 
+    
+    <!-- Access shared auth data -->
+    @if(auth.isLoggedIn()) {
+      <p>Logged in as: {{ auth.user()?.name }}</p>
+    }
+
+    <!-- Access shared cart -->
+    <p>Cart Total: {{ state.cartTotal() }}</p>
+    <button (click)="addItem()">Add to Cart</button>
+
+
+        <!-- 👈 shared button component -->
+    <lib-button 
+      label="Add to Cart"
+      variant="primary"
+      (clicked)="addToCart()">
+    </lib-button>
+
+    <lib-button 
+      label="Clear Cart"
+      variant="danger"
+      (clicked)="clearCart()">
+    </lib-button>

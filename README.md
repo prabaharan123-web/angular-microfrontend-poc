@@ -18,9 +18,3 @@ ng serve remote2
 - Shared UI components (ButtonComponent)
 - Lazy loading via loadRemoteModule()
 ```
-
----
-
-### Add This Link to Your Resume 🏆
-```
-GitHub: github.com/prabaharan123-web/angular-microfrontend-poc

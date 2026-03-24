@@ -1,4 +1,4 @@
 {
-  "remote1": "http://localhost:4201/remoteEntry.js",
-  "remote2": "http://localhost:4202/remoteEntry.js"
+  "remote1": "https://remote1app.netlify.app/remoteEntry.js", 
+  "remote2": "https://remote2app.netlify.app/remoteEntry.js"
 }
